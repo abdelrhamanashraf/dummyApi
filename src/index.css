@@ -88,3 +88,30 @@ box-sizing: border-box
     top: 118px;
     left: 300px;
 }
+.msg{
+    visibility: hidden;
+}
+.error{
+    visibility: visible;
+    color:white;
+    background-color: red;
+    width: fit-content;
+    height: 25px;
+    text-align: center;
+    padding: auto;
+    position: fixed;
+    top: 10px;
+    left:47%
+}
+.success{
+    visibility: visible;
+    color:white;
+    background-color: rgb(43, 255, 0);
+    width: fit-content;
+    height: 25px;
+    text-align: center;
+    padding: auto;
+    position: fixed;
+    top: 10px;
+    left:47%
+}
